@@ -130,7 +130,6 @@ if test "$os" == "Darwin"
         echo LD_LIBRARY_PATH=$LD_LIBRARY_PATH
 fi
 
-echo XBMLANGPATH=$XBMLANGPATH
 env | grep -E "^(VRAY.*MAYA$mver|PATH|XBMLANGPATH|PYTHONPATH|DYLD_LIBRARY_PATH|LD_LIBRARY_PATH)"
 echo
 #echo _________________________________________
